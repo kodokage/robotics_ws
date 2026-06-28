@@ -31,6 +31,26 @@ Learning:
 - URDF
 - Robot state publisher
 
+## Day 6 - Robot Description and TF2
+
+Completed:
+- URDF robot model creation
+- Xacro variables
+- Links and joints
+- Fixed and continuous joints
+- robot_state_publisher
+- TF2 frame relationships
+- /tf and /tf_static
+- RViz robot visualization
+- Joint state pipeline
+
+Robot pipeline understood:
+
+xacro -> URDF -> robot_state_publisher -> TF2 -> RViz
+
+## Launch Rviz2 from launch file
+ ros2 launch robot_description display.launch.py
+
 
 ## Milestone 3 — Robot Navigation
 
